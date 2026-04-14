@@ -207,6 +207,35 @@ const projects = [
         "Use this as your founder and innovation section rather than a standard repo card.",
     },
   },
+  {
+  id: 6,
+  title: "DataLens",
+  category: "Data Science",
+  impact: "Analyzes datasets to detect quality issues, feature risks, and ML readiness with actionable insights.",
+  problem: "Raw datasets often contain missing values, outliers, and hidden risks that affect downstream ML performance.",
+  outcome: "Built an intelligent data profiling tool that audits data quality, highlights risks, and recommends preprocessing steps.",
+  stack: ["Python", "Streamlit", "Pandas", "NumPy", "Matplotlib"],
+  github: "https://github.com/codewp199/DataLens",
+  demo: "https://datalens-m8cctlegynxpzta4zwno7r.streamlit.app/",
+  details: {
+    whyItMatters: "Helps teams identify data issues early and improve model performance before training.",
+    role: "Designed and built the full pipeline including data profiling, risk detection, and insight generation.",
+    architecture: [
+      "Upload CSV dataset",
+      "Analyze missing values, duplicates, and outliers",
+      "Profile each column and assign risk levels",
+      "Generate insights and recommendations",
+      "Compute ML readiness score"
+    ],
+    highlights: [
+      "Automated data quality audit",
+      "Feature risk detection",
+      "Insight generation engine",
+      "ML readiness scoring"
+    ],
+    recruiterAngle: "Strong demonstration of data understanding, ML thinking, and product-level problem solving."
+  }
+}
 ];
 
 function SectionTitle({ eyebrow, title, description }) {
