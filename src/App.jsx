@@ -235,7 +235,7 @@ const projects = [
     ],
     recruiterAngle: "Strong demonstration of data understanding, ML thinking, and product-level problem solving."
   }
-}
+},
   {
   id: 7,
   title: "DecisionBoard",
