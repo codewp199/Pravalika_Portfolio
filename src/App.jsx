@@ -236,6 +236,35 @@ const projects = [
     recruiterAngle: "Strong demonstration of data understanding, ML thinking, and product-level problem solving."
   }
 }
+  {
+  id: 7,
+  title: "DecisionBoard",
+  category: "Data Analyst",
+  impact: "Transforms raw datasets into actionable business decisions by identifying key drivers, risks, and opportunities.",
+  problem: "Data analysis often stops at dashboards without clear direction, leaving teams unsure about what actions to take next.",
+  outcome: "Built a decision-support tool that analyzes data patterns, highlights critical insights, and generates clear, data-driven recommendations.",
+  stack: ["Python", "Streamlit", "Pandas", "NumPy", "Plotly"],
+  github: "https://github.com/codewp199/DecisionBoard",
+  demo: "https://decisionboard-dmdzqwoqg4pxienvdkhagg.streamlit.app/",
+  details: {
+    whyItMatters: "Bridges the gap between analysis and decision-making by turning insights into clear, actionable recommendations.",
+    role: "Designed and developed the full pipeline including data ingestion, pattern detection, insight generation, and decision recommendation engine.",
+    architecture: [
+      "Upload CSV dataset",
+      "Perform data quality checks and preprocessing",
+      "Analyze distributions, outliers, and segment patterns",
+      "Identify key drivers and anomalies",
+      "Generate decision-oriented insights and recommendations"
+    ],
+    highlights: [
+      "Decision-focused analytics engine",
+      "Automated insight generation",
+      "Pattern and anomaly detection",
+      "Actionable recommendation system"
+    ],
+    recruiterAngle: "Demonstrates strong analytical thinking, business awareness, and ability to translate data insights into real-world decisions."
+  }
+}
 ];
 
 function SectionTitle({ eyebrow, title, description }) {
