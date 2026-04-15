@@ -183,8 +183,8 @@ const projects = [
     outcome:
       "Positioned as a founder-led innovation track combining AI, neural signal analysis, research translation, and product experimentation.",
     stack: ["BCI", "EEG Analytics", "Machine Learning", "Startup Strategy", "Research Translation"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/codewp199/EEG-Stress-Management",
+    demo: "https://neurocortexmindtech.godaddysites.com/",
     details: {
       whyItMatters:
         "This is the section that differentiates you from generic AI candidates. It signals founder energy, research depth, and future-facing technical ambition.",
