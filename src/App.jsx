@@ -450,7 +450,7 @@ export default function App() {
           <div className="container hero-grid">
             <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
               <div className="pill">
-                <Sparkles size={14} /> AI/ML • Data • Founder Mindset
+                <Sparkles size={14} /> AI/ML • Data Analyst Enthusiast • Founder
               </div>
               <h1>
                 Building intelligent systems, analytical workflows, and product-grade AI experiences.
@@ -521,8 +521,8 @@ export default function App() {
             <SectionTitle
               eyebrow="Skills"
               title="Technical breadth with a clear applied engineering focus."
-              description="This portfolio is intentionally organized to make recruiter review faster: core programming, applied ML, analytics tooling, data systems, deployment readiness, and startup-style problem framing."
-            />
+              description="Designed to reflect real-world engineering thinking, this portfolio showcases how I build, analyze, and deploy data-driven systems—from dataset auditing and anomaly detection to ML monitoring and decision-support tools."
+              />
             <div className="skills-grid">
               {Object.entries(skills).map(([title, items]) => (
                 <SkillCard key={title} title={title} items={items} />
@@ -536,8 +536,7 @@ export default function App() {
             <SectionTitle
               eyebrow="Project Showcase"
               title="Four tracks. One coherent technical story."
-              description="These projects are grouped the way a strong recruiter or hiring manager would naturally evaluate them: model reasoning, analytics usefulness, engineering maturity, and founder-led innovation potential."
-            />
+              description="Projects are structured to highlight key engineering signals: how models are reasoned about, how data is analyzed, how systems are designed, and how solutions are translated into usable products."            />
 
             <div className="toolbar card">
               <div className="filter-group">
@@ -577,8 +576,7 @@ export default function App() {
             <SectionTitle
               eyebrow="Experience & Credibility"
               title="Positioned to show ownership, initiative, and execution."
-              description="This section should support your portfolio story: you are not just collecting projects — you are building with intent, connecting research to products, and showing evidence of technical initiative."
-            />
+              description="Highlights hands-on execution and ownership across projects, with a focus on turning technical concepts and research-driven ideas into deployable, real-world solutions."            />
 
             <div className="experience-grid">
               {[
@@ -651,16 +649,16 @@ export default function App() {
               </p>
 
               <div className="button-row centered-buttons">
-                <a className="btn btn-primary" href="#">
+                <a className="btn btn-primary" href="https://www.linkedin.com/in/pravalika-upadrashta">
                   <Linkedin size={16} /> LinkedIn
                 </a>
                 <a className="btn btn-secondary" href="https://github.com/codewp199" target="_blank" rel="noreferrer">
                   <Github size={16} /> GitHub
                 </a>
-                <a className="btn btn-secondary" href="mailto:your-email@example.com">
+                <a className="btn btn-secondary" href="mailto:pravalikaupadrasta11@gmail.com">
                   <Mail size={16} /> Email
                 </a>
-                <a className="btn btn-accent" href="#">
+                <a className="btn btn-accent" href="https://canva.link/axgi84qebb78vgt">
                   <FileText size={16} /> Resume
                 </a>
               </div>
