@@ -496,10 +496,9 @@ export default function App() {
                   })}
                 </div>
                 <div className="inner-card recruiter-snapshot">
-                  <h4>Recruiter Snapshot</h4>
+                  <h4>How I think?</h4>
                   <p className="muted body-text">
-                    Strong fit for AI/ML engineering, data science, analytics, and innovation-facing roles requiring technical versatility and practical product thinking.
-                  </p>
+            "I’m naturally drawn to broken systems—especially when the issue isn’t obvious. I like digging into data, figuring out what’s actually going wrong, and building tools that make that process faster and more intuitive."                  </p>
                 </div>
               </div>
             </motion.div>
@@ -645,7 +644,6 @@ export default function App() {
               <p className="eyebrow">Contact</p>
               <h2>Open to impactful AI, data, and startup-facing opportunities.</h2>
               <p className="section-description contact-copy">
-                Replace the placeholder links below with your actual LinkedIn, GitHub, resume, and email. This section should make it easy for recruiters to move from interest to action.
               </p>
 
               <div className="button-row centered-buttons">
